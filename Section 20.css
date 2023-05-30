@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Nunito';
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 390px;
+    border-radius: 100%;
+    border: 2px solid white;
+    position: relative;
+    top: -422px;
+}
+
+.circle {
+    transition: all 0.25s linear;
+}
+
+input {
+    width: 160px;
+    height: 120px;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 60px;
+    text-align: center;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.borderAround {
+    border: 1px solid white;
+}
+
